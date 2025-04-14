@@ -1,0 +1,102 @@
+{
+  "families": [
+    {
+      "childRefs": [
+        {
+          "ref": "I3*fe6ca186-aa19-4d81-8ae7-c71d5dbd5a43"
+        }
+      ],
+      "husbandRefs": [
+        {
+          "ref": "I2*e3b257bc-d5b1-4a3d-8513-104e8ae3054f"
+        }
+      ],
+      "id": "F2*8ded911b-7f5c-4006-abdf-a67233e20a1f",
+      "wifeRefs": []
+    },
+    {
+      "childRefs": [
+        {
+          "ref": "I4*8b3e489f-ffdc-4a13-9ac7-9007fa8edefa"
+        }
+      ],
+      "husbandRefs": [
+        {
+          "ref": "I3*fe6ca186-aa19-4d81-8ae7-c71d5dbd5a43"
+        }
+      ],
+      "id": "F3*718ea65f-efeb-44a2-ab67-414411b717a3",
+      "wifeRefs": []
+    }
+  ],
+  "head": {
+    "charset": {
+      "value": "UTF-8"
+    },
+    "date": {
+      "time": "06:16:07",
+      "value": "15 APR 2025"
+    },
+    "file": "subtree",
+    "gedc": {
+      "form": "LINEAGE-LINKED",
+      "vers": "5.5.1"
+    },
+    "lang": "Japanese",
+    "sour": {
+      "name": "Tarombo",
+      "value": "TAROMBO",
+      "vers": "0.5.7 (5c5a32b)"
+    }
+  },
+  "people": [
+    {
+      "fams": [
+        {
+          "ref": "F2*8ded911b-7f5c-4006-abdf-a67233e20a1f"
+        }
+      ],
+      "id": "I2*e3b257bc-d5b1-4a3d-8513-104e8ae3054f",
+      "names": [
+        {
+          "value": "Child 1 //"
+        }
+      ],
+      "eventsFacts": []
+    },
+    {
+      "famc": [
+        {
+          "ref": "F2*8ded911b-7f5c-4006-abdf-a67233e20a1f"
+        }
+      ],
+      "fams": [
+        {
+          "ref": "F3*718ea65f-efeb-44a2-ab67-414411b717a3"
+        }
+      ],
+      "id": "I3*fe6ca186-aa19-4d81-8ae7-c71d5dbd5a43",
+      "names": [
+        {
+          "value": "Grand child 1 //"
+        }
+      ],
+      "eventsFacts": []
+    },
+    {
+      "famc": [
+        {
+          "ref": "F3*718ea65f-efeb-44a2-ab67-414411b717a3"
+        }
+      ],
+      "fams": [],
+      "id": "I4*8b3e489f-ffdc-4a13-9ac7-9007fa8edefa",
+      "names": [
+        {
+          "value": "Grand grand child 1 //"
+        }
+      ],
+      "eventsFacts": []
+    }
+  ]
+}
